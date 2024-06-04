@@ -23,8 +23,10 @@ mainProjectsContainer.innerHTML += elementObject.map((element) => {
           <img src="${element.image}" alt="image" />
         </div>
         <div class="card-content">
+          <div class="card-title">
           <h2>${element.name}</h2>
           <p>${element.country}</p>
+        </div>
           <button class="btn">${element.more}</button>
         </div>
       </div>
