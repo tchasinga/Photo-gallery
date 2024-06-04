@@ -1,13 +1,10 @@
-// Importing the react icon is unnecessary for this context as it's not used
-// import { GrFormNextLink } from "react-icons/gr";
 
 // This data will be called in the main file to render the elements
-
 const elementObject = [
     {
         name: "fennec <br/>fox",
         country: "India",
-        image: "https://images.pexels.com/photos/24252211/pexels-photo-24252211/free-photo-of-a-table-with-flowers-and-watercolor-paints.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        image: "https://images.pexels.com/photos/2295744/pexels-photo-2295744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         more: "Know more",
         
     },
@@ -15,7 +12,7 @@ const elementObject = [
     {
         name: "humpback <br/>whale",
         country: "South Africa",
-        image: "https://images.pexels.com/photos/24252211/pexels-photo-24252211/free-photo-of-a-table-with-flowers-and-watercolor-paints.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        image: "https://images.pexels.com/photos/4666751/pexels-photo-4666751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         more: "Know more",
         
     },
@@ -23,7 +20,7 @@ const elementObject = [
     {
         name: "common brown <br/>baboon",
         country: "South Africa",
-        image: "https://images.pexels.com/photos/24252211/pexels-photo-24252211/free-photo-of-a-table-with-flowers-and-watercolor-paints.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        image: "https://images.pexels.com/photos/38280/monkey-mandril-africa-baboon-38280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         more: "Know more",
         
     },
@@ -31,7 +28,7 @@ const elementObject = [
     {
         name: "spotted <br/>deer",
         country: "Amazon",
-        image: "https://images.pexels.com/photos/24252211/pexels-photo-24252211/free-photo-of-a-table-with-flowers-and-watercolor-paints.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        image: "https://images.pexels.com/photos/2877854/pexels-photo-2877854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         more: "Know more",
        
     }

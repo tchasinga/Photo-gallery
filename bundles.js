@@ -24,7 +24,7 @@ mainProjectsContainer.innerHTML += elementObject.map((element) => {
         </div>
         <div class="card-content">
           <div class="card-title">
-          <h2>${element.name}</h2>
+          <h1>${element.name}</h1>
           <p>${element.country}</p>
         </div>
           <button class="btn">${element.more}</button>
