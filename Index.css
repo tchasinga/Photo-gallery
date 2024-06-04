@@ -55,7 +55,7 @@ body {
 
 .card-content:hover {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
-  backdrop-filter: saturate(0%) blur(14px);
+  backdrop-filter: saturate(0%) blur(9px);
   transition: 0.4s ease;
   cursor: pointer;
 }
