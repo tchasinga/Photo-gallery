@@ -29,10 +29,13 @@ mainProjectsContainer.innerHTML += elementObject.map((element) => {
         </div>
         <div class="card-action">
           <p class="btn">${element.more}</p>
-          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke="#000" stroke-width="2" d="M2,12 L22,12 M13,3 L22,12 L13,21"></path></svg>
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke="aqua" stroke-width="2" d="M2,12 L22,12 M13,3 L22,12 L13,21"></path></svg>
           </div>
         </div>
       </div>
     </div>
     `;
 }).join('');
+
+// Initialising the modal and adding all needed animation
+
