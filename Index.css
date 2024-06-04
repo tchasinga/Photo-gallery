@@ -46,40 +46,39 @@ body {
     padding: 10%;
   }
 
-.card-image img {
+.cardimage img {
   width: 100%;
   height: 600px;
   object-fit: cover;
 }
 
-.card-title h1{
+/* .card-image img:hover {
+    filter: saturate(0%) blur(14px);
+  transition: 0.4s ease;
+} */
+
+.cardtitle h1{
     font-size: 1.7rem;  
     line-height: 2rem;
     font-weight: 700;
 }
 
-.card-title p {
+.cardtitle p {
   font-size: 0.7rem;
   text-transform: lowercase;
   margin-top: 13%;
 }
 
-.card-action{
+.cardaction{
     display: flex;
     align-items: center;
     gap: 9px;
 }
 
-.card-action p{
+.cardaction p{
     font-size: 0.8rem;
     text-transform: capitalize;
     font-weight: 400;
     color: aqua;
 }
 
-.card-action svg{
-    color: aqua;
-    background-color: aqua;
-    -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}
