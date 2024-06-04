@@ -37,7 +37,6 @@
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/javascript">JavaScript</a></li>
-    <li><a href="https://tailwindcss.com/docs/flex-basis">TailwindCss</a></li>
   </ul>
 </details>
 
@@ -45,13 +44,12 @@
 
 - **Nice UI**
 - **Responsive design**
-- **Animation reveals**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
->Click this Link to View [Live Version](soon)
+>Click this Link to View [Live Version](https://maphoto-zagallery.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,8 +126,7 @@ If you like this project, please give it a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I'd like just to say thanks for Idea and effort given by partner
-we've done enough in group
+I would want to thank COA for this fresh opportunity to learn in the field of web development. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

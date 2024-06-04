@@ -20,8 +20,8 @@ mainProjectsContainer.innerHTML += elementObject
       <div class="cardimage">
         <img src="${element.image}" alt="image" />
       </div>
-      <div class="card-content">
-      <div class="modalPostion">
+         <div class="card-content">
+        <div class="modalPostion">
       <div class="cardtitle">
       <h1>${element.name}</h1>
       <p>${element.country}</p>
@@ -32,12 +32,9 @@ mainProjectsContainer.innerHTML += elementObject
       <path fill="none" stroke="aqua" stroke-width="2" d="M2,12 L22,12 M13,3 L22,12 L13,21"></path>
     </svg>
     </div>
-      </div>
-      
-      </div>
-      
     </div>
-    
+     </div>
+    </div>
   </div>
     `;
   })
@@ -63,7 +60,6 @@ cardImages.forEach((cardImage, index) => {
     cardTitle.style.transition = "all 0.3s ease-in";
     cardAction.style.display = "flex";
   });
-
 
   cardImage.addEventListener("mouseout", function () {
     this.style.filter = "none";
