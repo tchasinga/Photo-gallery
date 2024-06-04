@@ -42,7 +42,7 @@ mainProjectsContainer.innerHTML += elementObject
 
 // Initialising the modal and adding all needed animation
 
-const cardImages = document.querySelectorAll(".cardimage");
+const cardImages = document.querySelectorAll(".card-content");
 const cardTitles = document.querySelectorAll(".cardtitle");
 const cardActions = document.querySelectorAll(".cardaction");
 
@@ -55,13 +55,10 @@ cardImages.forEach((cardImage, index) => {
   const cardAction = cardActions[index];
 
   cardImage.addEventListener("mouseover", function () {
-    this.style.filter = "blur(10px) saturate(0%)";
-    this.style.zIndex = "-100";
     this.style.transition = "all 0.3s ease-in";
-    cardTitle.style.marginTop = "-50px";
-    cardTitle.style.transition = "all 0.5s ease-in";
+    cardTitle.style.marginTop = "-30px";
+    cardTitle.style.transition = "all 0.3s ease-in";
     cardAction.style.display = "flex";
-    cardAction.style.marginTop = "0px";
   });
 
   cardImage.addEventListener("mouseout", function () {
