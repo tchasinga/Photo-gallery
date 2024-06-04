@@ -34,32 +34,30 @@ body {
 }
 
 .card-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: linear-gradient(to top, rgba(0, 0, 0, 1.9), rgba(0, 0, 0, 0.0));
-    width: 100%;
-    height: 100%;
-    color: white;
-    text-transform: uppercase;
-    border: 2px solid white;
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 1.9), rgba(0, 0, 0, 0));
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-transform: uppercase;
+  border: 2px solid white;
+}
 
-  .modalPostion{
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-30%, 129%);
-  }
+.modalPostion {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  bottom: 30%;
+}
 
-
-
-  .card-content:hover{
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.0));
-    backdrop-filter: saturate(0%) blur(14px);
-    transition: 0.4s ease;
-  }
+.card-content:hover {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  backdrop-filter: saturate(0%) blur(14px);
+  transition: 0.4s ease;
+}
 
 .cardimage img {
   width: 100%;
@@ -67,15 +65,10 @@ body {
   object-fit: cover;
 }
 
-/* .card-image img:hover {
-    filter: saturate(0%) blur(14px);
-  transition: 0.4s ease;
-} */
-
-.cardtitle h1{
-    font-size: 1.7rem;  
-    line-height: 2rem;
-    font-weight: 700;
+.cardtitle h1 {
+  font-size: 1.7rem;
+  line-height: 2rem;
+  font-weight: 700;
 }
 
 .cardtitle p {
@@ -84,17 +77,15 @@ body {
   margin-top: 13%;
 }
 
-.cardaction{
-    display: flex;
-    align-items: center;
-    gap: 9px;
-    
+.cardaction {
+  display: flex;
+  align-items: center;
+  gap: 9px;
 }
 
-.cardaction p{
-    font-size: 0.8rem;
-    text-transform: capitalize;
-    font-weight: 400;
-    color: aqua;
+.cardaction p {
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: aqua;
 }
-
