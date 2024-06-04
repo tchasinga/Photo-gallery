@@ -35,3 +35,5 @@ const elementObject = [
         icons: <GrFormNextLink />
     }
 ]
+
+export default elementObject;
