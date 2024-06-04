@@ -63,3 +63,16 @@ body {
   text-transform: lowercase;
   margin-top: 13%;
 }
+
+.card-action{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.card-action p{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: aqua;
+}
