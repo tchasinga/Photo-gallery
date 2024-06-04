@@ -7,6 +7,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+/* body{
     background: #000000;
+} */
+
+.heading{
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
 }

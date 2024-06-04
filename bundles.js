@@ -1,1 +1,0 @@
-const mainroot = document.getElementById('root');
