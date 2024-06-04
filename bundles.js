@@ -5,16 +5,16 @@ import elementObject from "./Tools/data.js";
 let AlertShow = false;
 
 setInterval(() => {
-    document.title = AlertShow ? "Photo Gallery" : "Welcome to the Photo Gallery";
+  document.title = AlertShow ? "Photo Gallery" : "Welcome to the Photo Gallery";
 
-    AlertShow = !AlertShow;
+  AlertShow = !AlertShow;
 }, 3000);
 
 // Displaying the elements on the screen
 const mainProjectsContainer = document.querySelector(".mainroot");
 mainProjectsContainer.innerHTML += elementObject
-    .map((element, index) => {
-        return `
+  .map((element, index) => {
+    return `
     <div class="card">
       <div class="card-container">
         <div class="cardimage">
@@ -37,8 +37,8 @@ mainProjectsContainer.innerHTML += elementObject
       </div>
     </div>
     `;
-    })
-    .join("");
+  })
+  .join("");
 
 // Initialising the modal and adding all needed animation
 
@@ -47,24 +47,24 @@ const cardTitles = document.querySelectorAll(".cardtitle");
 const cardActions = document.querySelectorAll(".cardaction");
 
 cardActions.forEach((cardAction) => {
-    cardAction.style.display = "none";
+  cardAction.style.display = "none";
 });
 
 cardImages.forEach((cardImage, index) => {
-    const cardTitle = cardTitles[index];
-    const cardAction = cardActions[index];
+  const cardTitle = cardTitles[index];
+  const cardAction = cardActions[index];
 
-    cardImage.addEventListener("mouseover", function () {
-        this.style.transition = "all 0.3s ease-in";
-        cardTitle.style.marginTop = "-30px";
-        cardTitle.style.transition = "all 0.3s ease-in";
-        cardAction.style.display = "flex";
-    });
+  cardImage.addEventListener("mouseover", function () {
+    this.style.transition = "all 0.3s ease-in";
+    cardTitle.style.marginTop = "-30px";
+    cardTitle.style.transition = "all 0.3s ease-in";
+    cardAction.style.display = "flex";
+  });
 
-    cardImage.addEventListener("mouseout", function () {
-        this.style.filter = "none";
-        cardTitle.style.marginTop = "0px";
-        cardTitle.style.transition = "all 0.5s ease-in";
-        cardAction.style.display = "none";
-    });
+  cardImage.addEventListener("mouseout", function () {
+    this.style.filter = "none";
+    cardTitle.style.marginTop = "0px";
+    cardTitle.style.transition = "all 0.5s ease-in";
+    cardAction.style.display = "none";
+  });
 });
