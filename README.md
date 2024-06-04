@@ -51,7 +51,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
->Click this Link to View [Live Versio](soon)
+>Click this Link to View [Live Version](soon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
