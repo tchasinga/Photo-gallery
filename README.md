@@ -52,10 +52,9 @@
 >Click this Link to View [Live Version](https://maphoto-zagallery.netlify.app/)
 
 
-## Video of presentation demo
+## A demonstration video for the presentation
  
- >This video will show you the presentation demo and working principal of this web-page
- Click here [See the video](https://maphoto-zagallery.netlify.app/)
+ >You can view the presentation demo and the website's operating principle in this video [See the video](https://maphoto-zagallery.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
