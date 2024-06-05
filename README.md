@@ -54,7 +54,7 @@
 
 ## A demonstration video for the presentation
  
- >You can view the presentation demo and the website's operating principle in this video [See the video](https://maphoto-zagallery.netlify.app/)
+ >You can view the presentation demo and the website's operating principle in this video [See the video](https://www.loom.com/share/622c32abd6f445e0a7b721cf93dfe932?sid=965d7fdc-2f0b-4f2d-83f3-259575aff415)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
