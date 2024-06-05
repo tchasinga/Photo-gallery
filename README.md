@@ -44,6 +44,7 @@
 
 - **Nice UI**
 - **Responsive design**
+- **Hovering efftect**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,7 +132,7 @@ If you like this project, please give it a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would want to thank COA for this fresh opportunity to learn in the field of web development. 
+> I want to express my sincere gratitude to COA for giving me this fantastic chance to broaden my knowledge and expertise in the web development industry. Your dedication to promoting education and career development is incredibly admirable. The tools and support offered are very appreciated, as this training session has been an invaluable experience. We appreciate your commitment to provide such worthwhile learning opportunities. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
